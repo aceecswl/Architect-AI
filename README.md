@@ -1,41 +1,20 @@
-# Architect-AI
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-## Project Documentation
+# Run and deploy your AI Studio app
 
-This project, Architect-AI, is focused on leveraging artificial intelligence to assist in architectural design and planning. The main features and components of the project are outlined below:
+This contains everything you need to run your app locally.
 
-### Features
-- Intelligent design recommendations
-- Integration with CAD tools
-- User-friendly interface
+View your app in AI Studio: https://ai.studio/apps/drive/17Sllr2rt1tsp8l5nL5MzRlTOqKAlsONb
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/aceecswl/Architect-AI.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Architect-AI
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+## Run Locally
 
-### Usage
-To start the application, run:
-```bash
-npm start
-```
+**Prerequisites:**  Node.js
 
-### Contributing
-Contributions are welcome! Please follow the [contributing guidelines](CONTRIBUTING.md) for more information.
 
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Author
-**aceecswl**
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

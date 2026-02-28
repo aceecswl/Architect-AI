@@ -1,1 +1,22 @@
-{\n  \"name\": \"digital-clock-app\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A digital clock application\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node index.js\",\n    \"build\": \"react-scripts build\"\n  },\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"react-dom\": \"^17.0.2\",\n    \"timezone\": \"^0.2.0\",\n    \"node\": \"^14.17.0\"\n  },\n  \"devDependencies\": {\n    \"@babel/core\": \"^7.0.0\",\n    \"@babel/preset-env\": \"^7.0.0\",\n    \"@babel/preset-react\": \"^7.0.0\",\n    \"react-scripts\": \"^4.0.0\"\n  },\n  \"keywords\": [\n    \"digital clock\",\n    \"react\",\n    \"node\"\n  ],\n  \"author\": \"aceecswl\",\n  \"license\": \"ISC\"\n}
+{
+  "name": "architex-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "@google/genai": "^1.27.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
